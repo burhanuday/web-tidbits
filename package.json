@@ -1,0 +1,24 @@
+{
+  "name": "web-tidbits",
+  "version": "1.0.0",
+  "description": "small collection of web design elements that i do in my spare time",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "keywords": [
+    "web",
+    "tidbits",
+    "elements",
+    "css",
+    "html",
+    "design"
+  ],
+  "author": "Burhanuddin Udaipurwala (burhanuday)",
+  "license": "MIT",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}

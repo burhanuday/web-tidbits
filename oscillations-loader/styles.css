@@ -1,0 +1,102 @@
+body {
+  background-color: #262e6f;
+}
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.line {
+  border-radius: 10px;
+  margin-left: 3px;
+}
+
+.line-1 {
+  height: 40px;
+  width: 10px;
+  background: #ec2d73;
+  -webkit-animation: animate 1s infinite alternate;
+          animation: animate 1s infinite alternate;
+}
+
+.line-2 {
+  height: 40px;
+  width: 10px;
+  background: #eb5324;
+  -webkit-animation: animate 1s infinite alternate;
+          animation: animate 1s infinite alternate;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+
+.line-3 {
+  height: 40px;
+  width: 10px;
+  background: #fdc800;
+  -webkit-animation: animate 1s infinite alternate;
+          animation: animate 1s infinite alternate;
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+
+.line-4 {
+  height: 40px;
+  width: 10px;
+  background: #47b264;
+  -webkit-animation: animate 1s infinite alternate;
+          animation: animate 1s infinite alternate;
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+
+.line-5 {
+  height: 40px;
+  width: 10px;
+  background: #1470bd;
+  -webkit-animation: animate 1s infinite alternate;
+          animation: animate 1s infinite alternate;
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+
+.line-6 {
+  height: 40px;
+  width: 10px;
+  background: #76469a;
+  -webkit-animation: animate 1s infinite alternate;
+          animation: animate 1s infinite alternate;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+@-webkit-keyframes animate {
+  0% {
+    height: 10px;
+  }
+  100% {
+    height: 60px;
+  }
+}
+
+@keyframes animate {
+  0% {
+    height: 10px;
+  }
+  100% {
+    height: 60px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
